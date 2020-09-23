@@ -1,0 +1,146 @@
+* {
+    padding: 0px;
+    margin: 5px;
+}
+
+header {
+    padding: 10px;
+    background-color: aqua;
+    font-family: Arial Black;
+    text-align: center;
+    font-size: 18px;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+}
+
+.logo_01, .logo_02, .logo_03, .logo_04 {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 100%;
+}
+
+.logo_01 {
+    width: 250px;
+}
+
+.logo_02 {
+    width: 250px;
+}
+
+.logo_03 {
+    width: 70px;
+}
+
+.logo_04 {
+    width: 95px;
+}
+
+.datos_institucionales {
+    padding: 5px;
+    font-family: Arial Black;
+    text-align: center;
+}
+
+.carrera {
+    margin-top: 8px;
+}
+
+.periodo {
+    margin-top: 8px;
+}
+
+.columns, .tabla_01 {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 100%;
+    font-size: 0 auto;
+}
+
+.tabla_01 {
+    padding-bottom: 20px;
+}
+
+td, th {
+    border: 0.25px solid Black;
+}
+
+.Columnas_prin{
+    background-color: #2471A3;
+	font-size: 14px;
+    color: white;
+	text-align: center;
+	font-family: Arial Black;
+}
+
+.horas{
+    background-color: #3BA2E6;
+    color: white;
+	font-size: 10px;
+	text-align: center;
+	font-family: Arial Black;
+}
+
+#materia {
+    text-align: center;
+}
+
+.receso{
+    background-color: #B5B6B6;
+	font-family: Arial Black;
+	font-size: 14px;
+    text-align: center;
+}
+
+.PW {
+    background-color: #F06D6D;
+}
+
+.PW::first-line {
+    font-weight: bold;
+}
+
+.IW {
+    background-color: #14BC5B;
+}
+
+.IW::first-line {
+    font-weight: bold;
+}
+
+.IA {
+    background-color: #E294F1;
+}
+
+.IA::first-line {
+    font-weight: bold;
+}
+
+.PPC {
+    background-color: #F1DA94;
+}
+
+footer {
+    background-color: #BBE0F6;
+    display: flex;
+    border-top: 5px solid navy;
+    justify-content: center;
+}
+
+.nombre, .semestre, .fecha {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 100%;
+}
+
+.nombre p, .semestre p, .fecha p {
+    font-size: 12px;
+	font-family: Arial Black;
+	height: 20px;
+	top: 10px;
+	right: 10px;
+}
